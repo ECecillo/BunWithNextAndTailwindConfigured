@@ -24,6 +24,12 @@
     "react/jsx-filename-extension": [
       1,
       { "extensions": [".js", ".jsx", ".tsx", ".ts"] }
+    ],
+    "react/jsx-props-no-spreading": [
+      1,
+      {
+        "exceptions": ["Component"] // Skip the spread props for Component only.
+      }
     ]
   }
 }
