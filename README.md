@@ -1,33 +1,44 @@
-# Next.js with Bun runtime
+# Before you start
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with Bun.
+## Use Bun to run the local environment
 
-## Getting Started
+This project use Bun runtime to manage and run the application in a local environment.
 
-### Cloning the repo
+You need to install it on your system to run the application.
 
-```sh
-bun create next ./app
+[Link to the project documentation](https://github.com/oven-sh/bun)
+
+## Or use node with npm
+
+You can also use the classic npm to install and run the application but since we are aiming for a modern web application we prefer using bun instead.
+
+# Install the application packages with Bun
+
+```bash
+bun install
 ```
 
-First, run the development server:
+##  Using NPM instead
+
+```bash
+npm i
+```
+
+# Run the application
+
+## Bun
 
 ```bash
 bun dev
 ```
 
+## Npm
+
+```bash
+npm run dev
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
