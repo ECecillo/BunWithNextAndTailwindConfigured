@@ -30,6 +30,7 @@
       {
         "exceptions": ["Component"] // Skip the spread props for Component only.
       }
-    ]
+    ],
+    "plugin:react/jsx-runtime": "extends"
   }
 }
